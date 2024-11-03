@@ -27,7 +27,7 @@ const skills = [
 
 const SkillsSection = () => (
 <>
-<h1 className='text-4xl text-white flex justify-center items-center flex-col font-bold p-16'>Skills</h1>
+<h1 className='text-4xl text-white flex justify-center items-center flex-col font-bold p-10'>Skills</h1>
   <div className="flex flex-wrap justify-center items-center gap-8 p-8">
     {skills.map((skill, index) => (
       <motion.div
