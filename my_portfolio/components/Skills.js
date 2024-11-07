@@ -1,5 +1,4 @@
-"use client"; // Ensures this is a Client Component
-
+"use client"; 
 import React from 'react';
 import { FaHtml5, FaCss3Alt, FaJs, FaCuttlefish, FaNodeJs, FaReact, FaPython, FaJava, FaGitAlt } from 'react-icons/fa';
 import { SiMongodb, SiMysql, SiExpress, SiTailwindcss, SiNextdotjs, SiPostman, SiCplusplus, SiMatlab } from 'react-icons/si';

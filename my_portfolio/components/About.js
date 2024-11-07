@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image'; // Ensure you import Image for your logo
 
 const About = () => {
   return (
