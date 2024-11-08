@@ -30,6 +30,24 @@ const About = () => {
         </div>
             <div className="text-lg mb-8 flex justify-end ml-[49rem]">2022 - 2026</div>
       </div>
+      <div className="flex items-center justify-start mt-12">
+        {/* Circular Frame for College Logo */}
+        <div className="w-16 h-16 rounded-full overflow-hidden border-4 border-white flex items-center justify-center mr-4">
+          <img
+            src="https://teachmint.storage.googleapis.com/profile_images/469a52e5-0fa2-4b59-bbb4-f4ac0d686bb3.jpg" // Replace with your college logo path
+            alt="Symbiosis Institute of Technology Logo"
+            width={89} // Adjust width to make the logo smaller
+            height={89} // Adjust height to make the logo smaller
+          />
+        </div>
+        <div className="text-white flex flex-col justify-start">
+          <h2 className="text-xl font-semibold">Shri Shivaji Vidya Mandir</h2>
+          <div className="flex justify-between">
+            <p className="text-lg">HSC (Science)</p>
+          </div>
+        </div>
+            <div className="text-lg mb-8 flex justify-end ml-[64rem]">2020 - 2022</div>
+      </div>
     </div>
   );
 }
