@@ -7,7 +7,7 @@ const Content = () => {
       <div className="flex flex-row justify-between items-center w-full">
         <div className="flex flex-col text-white space-y-4">
           <div className="text-5xl flex flex-col justify-center items-center">Hi, I am</div>
-          <div className="text-7xl flex flex-col justify-center items-center">Atharva Sawant</div>
+          <div className="text-7xl flex flex-col justify-center items-center text-transparent bg-gradient-to-r from-blue-600 to-cyan-400 bg-clip-text cursor-pointer">Atharva Sawant</div>
           <div className="text-3xl flex flex-col justify-center items-center">Full Stack Developer</div>
         </div>
         <img
