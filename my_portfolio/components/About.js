@@ -19,7 +19,7 @@ const About = () => {
         <h1 className="text-4xl text-center font-semibold p-2">Education</h1>
 
         {/* College Education */}
-        <div className="flex items-center mt-12 space-x-4">
+        <div className="flex items-center mt-12 space-x-4 bg-zinc-900 p-10 rounded-xl">
           {/* Circular Frame for College Logo */}
           <div className="w-16 h-16 rounded-full overflow-hidden border-4 border-white flex items-center justify-center">
             <img
@@ -40,7 +40,7 @@ const About = () => {
         </div>
 
         {/* High School Education */}
-        <div className="flex items-center mt-12 space-x-4">
+        <div className="flex items-center mt-12 space-x-4 bg-zinc-900 p-10 rounded-xl">
           {/* Circular Frame for School Logo */}
           <div className="w-16 h-16 rounded-full overflow-hidden border-4 border-white flex items-center justify-center">
             <img

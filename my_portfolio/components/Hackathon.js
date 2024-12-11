@@ -9,9 +9,9 @@ const Hackathon = () => {
           <h1 className="text-4xl text-center font-semibold p-5">Hackathons</h1>
 
           {/* Foss Hack 2024 */}
-          <div className="flex items-center mt-12 space-x-4">
+          <div className="flex items-center mt-12 space-x-4 bg-zinc-900 p-10 rounded-xl">
             {/* Circular Frame for Logo */}
-            <div className="w-16 h-16 rounded-full overflow-hidden border-4 border-white flex items-center justify-center">
+            <div className="w-16 h-16 rounded-full overflow-hidden border-4 border-white flex items-center justify-center ">
               <img
                 src="https://fossunited.org/files/Foss%20United%20Logo%20Black.svg"
                 alt="FOSS United Logo"
@@ -30,7 +30,7 @@ const Hackathon = () => {
           </div>
 
           {/* Techvortex 2.0 */}
-          <div className="flex items-center mt-12 space-x-4">
+          <div className="flex items-center mt-12 space-x-4 bg-zinc-900 p-10 rounded-xl">
             {/* Circular Frame for Logo */}
             <div className="w-16 h-16 rounded-full overflow-hidden border-4 border-white flex items-center justify-center">
               <img
@@ -41,7 +41,7 @@ const Hackathon = () => {
             </div>
 
             {/* Hackathon Details */}
-            <div className="flex flex-grow items-center justify-between text-white">
+            <div className="flex flex-grow items-center justify-between text-white ">
               <div>
                 <h2 className="text-xl font-semibold">Techvortex 2.0</h2>
                 <p className="text-lg">Developed a crowdfunding web application with seamless payment gateway.</p>

@@ -22,14 +22,14 @@ const projects = [
     description: 'This is a classic snake game made in JavaScript with all functionalities.',
     githubUrl: 'https://github.com/Atharvasawant09/Snake-game.git',
     liveUrl: 'https://atharvasawant09.github.io/Snake-game/',
-    imageSrc: './port3.png', // Add your image path here
+    imageSrc: './port4.png', // Add your image path here
   },
   {
     name: 'Todo List',
     description: 'This is a to-do list website made in React to record all day-to-day tasks.',
     githubUrl: 'https://github.com/Atharvasawant09/Todo-list-using-React.git',
     liveUrl: 'https://atharvasawant09.github.io/Todo-list-using-React/',
-    imageSrc: './port4.png', // Add your image path here
+    imageSrc: './port3.png', // Add your image path here
   },
 ];
 
