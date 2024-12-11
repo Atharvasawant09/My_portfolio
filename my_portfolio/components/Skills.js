@@ -1,7 +1,7 @@
 "use client"; 
 import React from 'react';
 import { FaHtml5, FaCss3Alt, FaJs, FaCuttlefish, FaNodeJs, FaReact, FaPython, FaJava, FaGitAlt } from 'react-icons/fa';
-import { SiMongodb, SiMysql, SiExpress, SiTailwindcss, SiNextdotjs, SiPostman, SiCplusplus, SiMatlab } from 'react-icons/si';
+import { SiMongodb, SiMysql, SiExpress, SiTailwindcss, SiNextdotjs, SiPostman, SiCplusplus, SiFigma } from 'react-icons/si';
 import { motion } from 'framer-motion';
 
 const skills = [
@@ -21,6 +21,7 @@ const skills = [
   { name: 'Next.js', icon: <SiNextdotjs />, color: '#000000' },
   { name: 'Postman', icon: <SiPostman />, color: '#FF6C37' },
   { name: 'Git', icon: <FaGitAlt />, color: '#F05032' },
+  { name: 'Figma', icon: <SiFigma />, color: '#FF0000' }
 ];
 
 
