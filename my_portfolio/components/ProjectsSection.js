@@ -236,7 +236,7 @@ const ProjectsSection = () => {
             Interested in Collaborating?
           </h3>
           <p className="text-gray-300 mb-8 text-lg">
-            I'm always excited to work on innovative projects. Let's build something amazing together!
+            I&apos;m always excited to work on innovative projects. Let&apos;s build something amazing together!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <motion.a
