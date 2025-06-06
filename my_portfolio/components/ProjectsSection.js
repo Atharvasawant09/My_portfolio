@@ -57,7 +57,6 @@ const categories = ['All', 'AI/ML', 'Full Stack', 'Web App'];
 const ProjectsSection = () => {
   const [selectedCategory, setSelectedCategory] = useState('All');
   
-  // Fixed filtering logic
   const filteredProjects = React.useMemo(() => {
     if (selectedCategory === 'All') {
       return projects;
@@ -103,7 +102,6 @@ const ProjectsSection = () => {
     }
   };
 
-  // Function to handle category change with animation
   const handleCategoryChange = (category) => {
     setSelectedCategory(category);
   };
@@ -116,10 +114,8 @@ const ProjectsSection = () => {
       viewport={{ once: true }}
       className="px-4 md:px-12 lg:px-24 py-16 relative"
     >
-      {/* Background Elements */}
       <div className="absolute inset-0 bg-gradient-to-br from-blue-900/5 via-purple-900/5 to-cyan-900/5 rounded-3xl"></div>
       
-      {/* Enhanced Title Section */}
       <motion.div 
         variants={titleVariants}
         className="text-center mb-16"
@@ -142,7 +138,6 @@ const ProjectsSection = () => {
         </motion.p>
       </motion.div>
 
-      {/* Category Filter */}
       <motion.div 
         variants={titleVariants}
         className="flex justify-center mb-12"
@@ -169,7 +164,6 @@ const ProjectsSection = () => {
         </div>
       </motion.div>
 
-      {/* Project Stats - Updated to reflect filtered projects */}
       <motion.div 
         variants={titleVariants}
         className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16"
@@ -198,13 +192,12 @@ const ProjectsSection = () => {
         </div>
       </motion.div>
       
-      {/* Projects Grid with Animation */}
       <motion.div 
         className="grid grid-cols-1 md:grid-cols-2 gap-8 min-h-[400px]"
         variants={gridVariants}
         initial="hidden"
         animate="visible"
-        key={selectedCategory} // This forces re-animation when category changes
+        key={selectedCategory}
       >
         {filteredProjects.length > 0 ? (
           filteredProjects.map((project, index) => (
@@ -223,7 +216,6 @@ const ProjectsSection = () => {
         )}
       </motion.div>
 
-      {/* Enhanced Call to Action - FIXED APOSTROPHES */}
       <motion.div 
         className="text-center mt-20"
         initial={{ opacity: 0, y: 30 }}
@@ -236,7 +228,7 @@ const ProjectsSection = () => {
             Interested in Collaborating?
           </h3>
           <p className="text-gray-300 mb-8 text-lg">
-            {`I'm always excited to work on innovative projects. Let's build something amazing together!`}
+            I&apos;m always excited to work on innovative projects. Let&apos;s build something amazing together!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <motion.a
@@ -258,7 +250,7 @@ const ProjectsSection = () => {
             >
               <span>Get In Touch</span>
             </motion.a>
-          </div>
+            </div>
         </div>
       </motion.div>
     </motion.div>
